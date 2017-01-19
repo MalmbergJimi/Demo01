@@ -15,7 +15,7 @@ namespace Teht07
             string line = Console.ReadLine();
             vuosi = int.Parse(line);
 
-            int karkaus = vuosi % 4;
+            int karkaus = vuosi % 4;    // Karkausvuosi, vuosi jakojäännös 4
             int sata = vuosi % 400;
             
             if ( karkaus == 0 && vuosi % 100 != 0) { 
