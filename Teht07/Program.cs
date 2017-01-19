@@ -11,9 +11,11 @@ namespace Teht07
         static void Main(string[] args)
         {
             int vuosi;
-            Console.Write("Anna minulle jokin vuosiluku, niin kerron onko se karkausvuosi: ");   // Kysytään vuosi
+            Console.WriteLine("Anna minulle jokin vuosiluku, niin kerron onko se karkausvuosi: ");   // Kysytään vuosi
             string line = Console.ReadLine();
             vuosi = int.Parse(line);
+
+            Console.WriteLine("dafuq?");
 
           
            
