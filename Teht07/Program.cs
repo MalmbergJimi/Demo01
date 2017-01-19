@@ -15,7 +15,7 @@ namespace Teht07
             string line = Console.ReadLine();
             vuosi = int.Parse(line);
 
-            Console.WriteLine("dafuq?");
+            Console.WriteLine("dafuq? I dont know");
 
           
            
