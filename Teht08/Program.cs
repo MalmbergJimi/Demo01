@@ -44,7 +44,7 @@ namespace Teht08
                 luku2 = apu;
             }
 
-            Console.WriteLine("Suurin luku on luku " + luku3);
+            Console.WriteLine("Suurin luku on aikalailla" + luku3);
         }
     }
 }
