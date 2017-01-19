@@ -15,10 +15,26 @@ namespace Teht07
             string line = Console.ReadLine();
             vuosi = int.Parse(line);
 
-            Console.WriteLine("dafuq? I dont know");
+            int karkaus = vuosi % 4;
+            int sata = vuosi % 400;
+            
+            if ( karkaus == 0 && vuosi % 100 != 0) { 
+                Console.WriteLine("Vuosi on karkausvuosi.");
+            }
 
-          
-           
+            else if (karkaus == 0 && vuosi % 400 == 0)
+            {
+                Console.WriteLine("Vuosi on KAKKAUSvuosi.");
+            }
+
+            else
+            {
+                Console.WriteLine("Vuosi ei ole karkausvuosi.");
+            }
+
+
+
+
         }
     }
     }
