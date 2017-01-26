@@ -13,9 +13,9 @@ namespace ConsoleApplication1
             
             int[] luvut = new int[5];
 
-            Console.WriteLine("Haluan viisi kokonaislukua. Anna luku 1: ");
+            Console.WriteLine("Haluan viisi kokonaislukua. Anna luku 1: ");  // KYSYTÄÄN 5 LUKUA KÄYTTÄJÄLTÄ
             string line = Console.ReadLine();
-            luvut[0] = int.Parse(line);
+            luvut[0] = int.Parse(line);                                     // Sijoitetaan luvut taulukkoon
 
             Console.WriteLine("Anna luku 2: ");
             string line1 = Console.ReadLine();
@@ -23,21 +23,26 @@ namespace ConsoleApplication1
 
             Console.WriteLine("Anna luku 3: ");
             string line2 = Console.ReadLine();
-            luvut[1] = int.Parse(line2);
+            luvut[2] = int.Parse(line2);
 
             Console.WriteLine("Anna luku 4: ");
             string line3 = Console.ReadLine();
-            luvut[1] = int.Parse(line3);
+            luvut[3] = int.Parse(line3);
 
             Console.WriteLine("Anna luku 5: ");
             string line4 = Console.ReadLine();
-            luvut[1] = int.Parse(line4);
+            luvut[4] = int.Parse(line4);
+            
+            Console.Write("Kiitos! Antamasi luvut ovat: ");
 
-            Console.WriteLine("Jotain");
+            int i;
+            for (i = 4; i >= 0; i--)     // For-silmukka joka tulostaa annetut luvut käännetyssä järjestyksessä
+            {
+                Console.Write(luvut[i] + ",");
+            }
 
-
-
+            Console.WriteLine();
         }
-        }
+    }
     }
 
