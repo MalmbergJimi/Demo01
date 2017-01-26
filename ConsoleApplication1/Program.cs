@@ -33,6 +33,8 @@ namespace ConsoleApplication1
             string line4 = Console.ReadLine();
             luvut[1] = int.Parse(line4);
 
+            Console.WriteLine("Jotain");
+
 
 
         }
