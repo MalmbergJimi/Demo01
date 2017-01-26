@@ -21,13 +21,19 @@ namespace Teht11
 
             for (i=0; i < rivit; i++)
             {
-                Console.WriteLine(tahti);
-
-                for (h=0; h<i+1; h++)
+                
+                for (h=0; h<i; h++)
                 {
                  Console.Write(tahti);
                 }
+
+                Console.WriteLine(tahti);
             }
+
+
         }
+
+
+
     }
 }
